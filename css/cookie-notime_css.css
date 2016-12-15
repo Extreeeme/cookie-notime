@@ -67,3 +67,9 @@ body{
     opacity: 1;
     transition: 0s
 }
+
+
+body{
+	background-image: url(http://4anneaux.fr/wp-content/uploads/2011/07/powerup.jpg);
+	background-size: cover;
+}
