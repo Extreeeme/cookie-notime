@@ -9,9 +9,9 @@ document.getElementById("bouton").onclick = function (){
 
 document.getElementById("multiplicateur").onclick = function(){
 	if(cookies >=20){
-		multiplicateur = multiplicateur * 2;
+		multiplicateur = multiplicateur + 1;
 		cookies = cookies - 20;
-		document.getElementById("multiplicateur").innerHTML="Multiplicateur x" + multiplicateur;
+		document.getElementById("multiplicateur").innerHTML="Multiplicateur +" + multiplicateur;
 		document.getElementById("score").innerHTML="Vous avez : "+cookies+" Cookies";
 	}
 }
