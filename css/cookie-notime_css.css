@@ -11,10 +11,11 @@
 	left: 680px;
 	top: 2%;
 	right: 2%;
-	bottom: 2%;
+	bottom: 30%;
 	padding: 210px;
 	background-color: lightgrey;
 	z-index: 1;
+	border-radius: 30px;
 }
 
 .titre{
