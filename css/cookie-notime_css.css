@@ -70,6 +70,28 @@ body{
     transition: 0s
 }
 
+#buttonanim {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #372612;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #372612;
+}
+
+#buttonanim:hover {background-color: #372612}
+
+#buttonanim:active {
+  background-color: #372612;
+  box-shadow: 0 5px ##372612;
+  transform: translateY(4px);
+}
 
 body{
 	background-image: url(http://4anneaux.fr/wp-content/uploads/2011/07/powerup.jpg);

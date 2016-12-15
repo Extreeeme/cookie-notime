@@ -2,7 +2,7 @@ var multiplicateur = 1;
 var cookies = 0;
 var prix = 20;
 
-document.getElementById("bouton").onclick = function (){
+document.getElementById("buttonanim").onclick = function (){
 	cookies = cookies+multiplicateur;
 	document.getElementById("score").innerHTML="Vous avez : "+cookies+" Cookies";
 }
