@@ -79,17 +79,17 @@ body{
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #372612;
+  background-color: transparent;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px #372612;
+  box-shadow: 0 9px transparent;
 }
 
-#buttonanim:hover {background-color: #372612}
+#buttonanim:hover {background-color: transparent}
 
 #buttonanim:active {
-  background-color: #372612;
-  box-shadow: 0 5px ##372612;
+  background-color: transparent;
+  box-shadow: 0 5px transparent;
   transform: translateY(4px);
 }
 
