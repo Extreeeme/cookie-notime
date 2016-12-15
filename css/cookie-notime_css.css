@@ -8,19 +8,17 @@
 
 .zoneMultiplicateur{
 	position: absolute;
-	left: 680px;
+	left: 80%;
 	top: 2%;
 	right: 2%;
 	bottom: 30%;
-	padding: 210px;
-	background-color: #8B4513;
 	z-index: 1;
 	border-radius: 30px;
 }
 
 .titre{
 	position: absolute;
-	left: 20%;
+	left: 35%;
 	top: 75%;
 	right: 30%;
 	z-index: 1000;
@@ -35,6 +33,7 @@ body{
 
 .button {
     position: relative;
+    top: 20%;
     background-color: #4CAF50;
     border: none;
     font-size: 28px;
@@ -47,6 +46,8 @@ body{
     text-decoration: none;
     overflow: hidden;
     cursor: pointer;
+    box-shadow: 5px 5px 35px black;
+    margin: right;
 }
 
 .button:after {
@@ -73,4 +74,10 @@ body{
 body{
 	background-image: url(http://4anneaux.fr/wp-content/uploads/2011/07/powerup.jpg);
 	background-size: cover;
+}
+
+
+p{
+    font-size:48px;
+    color: lightgreen;
 }
