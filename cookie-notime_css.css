@@ -1,0 +1,24 @@
+.cookie{
+	position: absolute;
+	left: 2%;
+	top: 2%;
+	padding: 50px 50px;
+	background-color: grey;
+	z-index: 1;
+}
+
+.zoneMultiplicateur{
+	position: absolute;
+	left: 680px;
+	top: 2%;
+	padding: 210px 200px;
+	background-color: lightgrey;
+	z-index: 1;
+}
+
+.titre{
+	position: absolute;
+	left: 30%;
+	top: 80%;
+	z-index: 1000;
+}
