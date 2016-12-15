@@ -10,14 +10,22 @@
 	position: absolute;
 	left: 680px;
 	top: 2%;
-	padding: 210px 200px;
+	right: 2%;
+	bottom: 2%;
+	padding: 210px;
 	background-color: lightgrey;
 	z-index: 1;
 }
 
 .titre{
 	position: absolute;
-	left: 30%;
-	top: 80%;
+	left: 20%;
+	top: 75%;
+	right: 30%;
 	z-index: 1000;
+}
+
+body{
+	background-image: url(img/fond.jpg);
+	background-size: cover;
 }
