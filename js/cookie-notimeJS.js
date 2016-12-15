@@ -15,3 +15,8 @@ function multiplicateur(cookies){
 		return multiplicateur;
 	}
 }
+
+function reset(){
+	cookies = 0;
+	multiplicateur = 1;
+}
