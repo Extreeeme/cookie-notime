@@ -20,6 +20,7 @@ document.getElementById("multiplicateur").onclick = function(){
 document.getElementById("reset").onclick = function (){
 	cookies = 0;
 	multiplicateur = 1;
+	prix = 20;
 	document.getElementById("score").innerHTML="Vous avez : "+cookies+" Cookies";
 	document.getElementById("multiplicateur").innerHTML="Multiplicateur\nPrix : 20";
 }
