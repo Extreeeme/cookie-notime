@@ -1,9 +1,14 @@
+html{
+  cursor: url('http://icon-icons.com/icons2/489/PNG/72/1449800296_christmas-icon-cookie_47784.png'), pointer; 
+}
+
 .cookie{
 	position: absolute;
 	left: 2%;
 	top: 2%;
 	padding: 50px 50px;
 	z-index: 1;
+  cursor: url('http://icon-icons.com/icons2/489/PNG/72/1449800296_christmas-icon-cookie_47784.png'), pointer; 
 }
 
 .zoneMultiplicateur{
@@ -14,6 +19,7 @@
 	bottom: 30%;
 	z-index: 1;
 	border-radius: 30px;
+  cursor: url('http://icon-icons.com/icons2/489/PNG/72/1449800296_christmas-icon-cookie_47784.png'), pointer; 
 }
 
 .titre{
@@ -22,11 +28,13 @@
 	top: 75%;
 	right: 30%;
 	z-index: 1000;
+  cursor: url('http://icon-icons.com/icons2/489/PNG/72/1449800296_christmas-icon-cookie_47784.png'), pointer; 
 }
 
 body{
 	background-image: url(img/fond.jpg);
 	background-size: cover;
+  cursor: url('http://icon-icons.com/icons2/489/PNG/72/1449800296_christmas-icon-cookie_47784.png'), pointer; 
 }
 
 
@@ -48,9 +56,11 @@ body{
     cursor: pointer;
     box-shadow: 5px 5px 35px black;
     margin: right;
+    cursor: url('http://icon-icons.com/icons2/489/PNG/72/1449800296_christmas-icon-cookie_47784.png'), pointer; 
 }
 
 .button:after {
+    cursor: url('http://icon-icons.com/icons2/489/PNG/72/1449800296_christmas-icon-cookie_47784.png'), pointer; 
     content: "";
     background: #90EE90;
     display: block;
@@ -64,6 +74,7 @@ body{
 }
 
 .button:active:after {
+    cursor: url('http://icon-icons.com/icons2/489/PNG/72/1449800296_christmas-icon-cookie_47784.png'), pointer; 
     padding: 0;
     margin: 0;
     opacity: 1;
@@ -83,6 +94,7 @@ body{
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px transparent;
+  cursor: url('http://icon-icons.com/icons2/489/PNG/72/1449800296_christmas-icon-cookie_47784.png'), pointer; 
 }
 
 #buttonanim:hover {background-color: transparent}
@@ -91,15 +103,18 @@ body{
   background-color: transparent;
   box-shadow: 0 5px transparent;
   transform: translateY(4px);
+  cursor: url('http://icon-icons.com/icons2/489/PNG/72/1449800296_christmas-icon-cookie_47784.png'), pointer; 
 }
 
 body{
 	background-image: url(http://4anneaux.fr/wp-content/uploads/2011/07/powerup.jpg);
 	background-size: cover;
+  cursor: url('http://icon-icons.com/icons2/489/PNG/72/1449800296_christmas-icon-cookie_47784.png'), pointer; 
 }
 
 
 p{
     font-size:48px;
     color: lightgreen;
+    cursor: url('http://icon-icons.com/icons2/489/PNG/72/1449800296_christmas-icon-cookie_47784.png'), pointer; 
 }
