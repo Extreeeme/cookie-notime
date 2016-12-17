@@ -2,6 +2,7 @@ var multiplicateur = 1;
 var cookies = 0;
 var prix = 20;
 var highscore = 0;
+var repetion = 0;
 
 if ('highscore'){
 	highscore = lireCookie('highscore');
@@ -22,7 +23,16 @@ document.getElementById("buttonanim").onclick = function (){
 }
 
 document.getElementById("multiplicateur").onclick = function(){
-	if(cookies >= prix){
+	if(cookies >= prix && prix==20){
+		multiplicateur = multiplicateur + 1;
+		repetition = setInterval(autoclick, 500);
+		cookies = cookies - prix;
+		prix = prix*2;
+		document.getElementById("multiplicateur").innerHTML="Multiplicateur +" + multiplicateur + "\nPrix : "+prix;
+		document.getElementById("score").innerHTML="Vous avez : "+cookies+" Cookies";
+		document.getElementById("highscore").innerHTML="Meilleur score : "+highscore;
+	}
+	else {
 		multiplicateur = multiplicateur + 1;
 		cookies = cookies - prix;
 		prix = prix*2;
@@ -36,6 +46,7 @@ document.getElementById("reset").onclick = function (){
 	cookies = 0;
 	multiplicateur = 1;
 	prix = 20;
+	stop();
 	document.getElementById("score").innerHTML="Vous avez : "+cookies+" Cookies";
 	document.getElementById("highscore").innerHTML="Meilleur score : "+highscore;
 	document.getElementById("multiplicateur").innerHTML="Multiplicateur\nPrix : 20";
@@ -56,3 +67,18 @@ function saveCookie(highscore) {
 	document.cookie = "highscore="+highscore+"; expires=Mon, 1 Mar 2025 00:00:00 UTC; path=/";
 }
 
+function autoclick(){
+	cookies = cookies + 1;
+	document.getElementById("score").innerHTML="Vous avez : "+cookies+" Cookies";		
+	document.getElementById("highscore").innerHTML="Meilleur score : "+highscore;
+	if (cookies > highscore){
+		highscore = cookies;
+		document.getElementById("score").innerHTML="Vous avez : "+cookies+" Cookies";
+		document.getElementById("highscore").innerHTML="Meilleur score : "+highscore;
+		saveCookie(highscore);
+	}
+}
+
+function stop(){
+	clearInterval(repetition)
+}
