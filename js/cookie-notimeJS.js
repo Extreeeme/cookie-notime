@@ -23,7 +23,7 @@ document.getElementById("buttonanim").onclick = function (){
 }
 
 document.getElementById("multiplicateur").onclick = function(){
-	if(cookies >= prix && prix==20){
+	if(cookies >= prix && prix == 20){
 		multiplicateur = multiplicateur + 1;
 		repetition = setInterval(autoclick, 500);
 		cookies = cookies - prix;
@@ -32,7 +32,7 @@ document.getElementById("multiplicateur").onclick = function(){
 		document.getElementById("score").innerHTML="Vous avez : "+cookies+" Cookies";
 		document.getElementById("highscore").innerHTML="Meilleur score : "+highscore;
 	}
-	else {
+	else if(cookies >= prix){
 		multiplicateur = multiplicateur + 1;
 		cookies = cookies - prix;
 		prix = prix*2;
