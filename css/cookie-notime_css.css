@@ -44,7 +44,7 @@ body{
     top: 20%;
     background-color: #4CAF50;
     border: none;
-    font-size: 28px;
+    font-size: 20px;
     color: #FFFFFF;
     padding: 20px;
     width: 200px;
@@ -114,7 +114,7 @@ body{
 
 
 p{
-    font-size:48px;
+    font-size:40px;
     color: lightgreen;
     cursor: url('http://icon-icons.com/icons2/489/PNG/72/1449800296_christmas-icon-cookie_47784.png'), pointer; 
 }
