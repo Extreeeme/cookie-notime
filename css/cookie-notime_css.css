@@ -118,3 +118,12 @@ p{
     color: lightgreen;
     cursor: url('http://icon-icons.com/icons2/489/PNG/72/1449800296_christmas-icon-cookie_47784.png'), pointer; 
 }
+
+
+video#bgvid{
+  position: fixed;right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url(fond.jpg) no-repeat;
+  background-size: cover;
+}
