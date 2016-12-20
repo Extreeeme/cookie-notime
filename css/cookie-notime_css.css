@@ -1,11 +1,12 @@
+
 html{
   cursor: url('http://icon-icons.com/icons2/489/PNG/72/1449800296_christmas-icon-cookie_47784.png'), pointer; 
 }
 
 .cookie{
 	position: absolute;
-	left: 2%;
-	top: 2%;
+  left: 28%;
+	top: 10%;
 	padding: 50px 50px;
 	z-index: 1;
   cursor: url('http://icon-icons.com/icons2/489/PNG/72/1449800296_christmas-icon-cookie_47784.png'), pointer; 
@@ -13,9 +14,8 @@ html{
 
 .zoneMultiplicateur{
 	position: absolute;
-	left: 55%;
-	top: 2%;
-	right: 2%;
+	left: 2%;
+	top: 15%;
 	bottom: 30%;
 	z-index: 1;
 	border-radius: 30px;
@@ -24,18 +24,14 @@ html{
 
 .titre{
 	position: absolute;
-	left: 35%;
+	left: 25%;
 	top: 75%;
 	right: 30%;
 	z-index: 1000;
   cursor: url('http://icon-icons.com/icons2/489/PNG/72/1449800296_christmas-icon-cookie_47784.png'), pointer; 
 }
 
-body{
-	background-image: url(img/fond.jpg);
-	background-size: cover;
-  cursor: url('http://icon-icons.com/icons2/489/PNG/72/1449800296_christmas-icon-cookie_47784.png'), pointer; 
-}
+
 
 
 
@@ -54,7 +50,7 @@ body{
     text-decoration: none;
     overflow: hidden;
     cursor: pointer;
-    box-shadow: 5px 5px 35px black;
+   
     margin: right;
     cursor: url('http://icon-icons.com/icons2/489/PNG/72/1449800296_christmas-icon-cookie_47784.png'), pointer; 
 }
@@ -106,11 +102,7 @@ body{
   cursor: url('http://icon-icons.com/icons2/489/PNG/72/1449800296_christmas-icon-cookie_47784.png'), pointer; 
 }
 
-body{
-	background-image: url(http://4anneaux.fr/wp-content/uploads/2011/07/powerup.jpg);
-	background-size: cover;
-  cursor: url('http://icon-icons.com/icons2/489/PNG/72/1449800296_christmas-icon-cookie_47784.png'), pointer; 
-}
+
 
 
 p{
@@ -126,4 +118,21 @@ video#bgvid{
   width: auto; height: auto; z-index: -100;
   background: url(fond.jpg) no-repeat;
   background-size: cover;
+}
+
+
+
+
+header{
+
+  left: 0%;
+  right: 0%;
+  background-color: #4CAF50;
+}
+
+
+article{
+  display: block;
+  top: 20%;
+  text-align: center;
 }
